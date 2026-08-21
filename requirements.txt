@@ -1,0 +1,28 @@
+# AFH Acquisition Pipeline - dependencies
+# Install:  pip install -r requirements.txt
+# Tested against Python 3.11 / 3.12
+
+# --- Google Gmail API ---
+google-api-python-client>=2.130.0
+google-auth>=2.30.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+
+# --- Anthropic Claude API ---
+anthropic>=0.40.0
+
+# --- HTML parsing of listing-alert emails ---
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# --- PDF generation ---
+reportlab>=4.2.0
+
+# --- Web app (iPad front end) ---
+streamlit>=1.36.0
+
+# --- Config / env ---
+python-dotenv>=1.0.0
+
+# --- Optional: nicer CLI output (pipeline runs fine without it) ---
+rich>=13.7.0
